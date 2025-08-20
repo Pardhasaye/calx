@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Telugu Calendar 2025</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-header">
+        <h2>Months</h2>
+        <button id="close-sidebar" class="close-button">×</button>
+      </div>
+      <ul id="month-list">
+        <li><a href="#" data-month="january">January</a></li>
+        <li><a href="#" data-month="february">February</a></li>
+        <li><a href="#" data-month="march">March</a></li>
+        <li><a href="#" data-month="april">April</a></li>
+        <li><a href="#" data-month="may">May</a></li>
+        <li><a href="#" data-month="june">June</a></li>
+        <li><a href="#" data-month="july">July</a></li>
+        <li><a href="#" data-month="august">August</a></li>
+        <li><a href="#" data-month="september">September</a></li>
+        <li><a href="#" data-month="october">October</a></li>
+        <li><a href="#" data-month="november">November</a></li>
+        <li><a href="#" data-month="december">December</a></li>
+      </ul>
+    </aside>
+    
+    <main class="main-content">
+      <header>
+        <div class="nav-icons">
+          <button id="menu-toggle" class="menu-icon">☰</button>
+        </div>
+        <h1 style="color: antiquewhite;">TELUGU CALENDAR</h1>
+        <div class="datetime">
+          <div id="current-date"></div>
+          <div id="current-time"></div>
+        </div>
+      </header>
+      
+      <!-- Calendar View -->
+      <div id="calendar-view">
+        <div class="calendar-header">
+          <div class="calendar-image">
+            <img src="namaste.svg" alt="Calendar Icon" class="circle-image">
+          </div>
+          <h2 style="color: antiquewhite;">2025 CALENDAR</h2>
+          <div class="calendar-image" style="padding-bottom: 10px; padding-top:10px;">
+            <img src="namaste.svg" alt="Calendar Icon" class="circle-image">
+          </div>
+        </div>
+        
+        <div class="months-grid">
+          <div class="month-card" data-month="january">
+            <div class="image-icon">
+              <img src="images\january.jpg" alt="Image">
+              <span></span>
+            </div>
+            <div class="month-name">JANUARY</div>
+          </div>
+          
+          <div class="month-card" data-month="february">
+            <div class="image-icon">
+              <img src="images\february.jpg" alt="Image">
+              
+            </div>
+            <div class="month-name">FEBRUARY</div>
+          </div>
+          
+          <div class="month-card" data-month="march">
+            <div class="image-icon">
+              <img src="images\march.jpg" alt="Image">
+            
+            </div>
+            <div class="month-name">MARCH</div>
+          </div>
+          
+          <div class="month-card" data-month="april">
+            <div class="image-icon">
+              <img src="images\april.jpg" alt="Image">
+              
+            </div>
+            <div class="month-name">APRIL</div>
+          </div>
+          
+          <div class="month-card" data-month="may">
+            <div class="image-icon">
+              <img src="images\may.jpg" alt="Image">
+              
+            </div>
+            <div class="month-name">MAY</div>
+          </div>
+          
+          <div class="month-card" data-month="june">
+            <div class="image-icon">
+              <img src="images\june.jpg" alt="Image">
+              
+            </div>
+            <div class="month-name">JUNE</div>
+          </div>
+          
+          <div class="month-card" data-month="july">
+            <div class="image-icon">
+              <img src="images\july.jpg" alt="Image">
+              
+            </div>
+            <div class="month-name">JULY</div>
+          </div>
+          
+          <div class="month-card" data-month="august">
+            <div class="image-icon">
+              <img src="images\august.jpg" alt="Image">
+              
+            </div>
+            <div class="month-name">AUGUST</div>
+          </div>
+          
+          <div class="month-card" data-month="september">
+            <div class="image-icon">
+              <img src="images\september.jpg" alt="Image">
+              
+            </div>
+            <div class="month-name">SEPTEMBER</div>
+          </div>
+          
+          <div class="month-card" data-month="october">
+            <div class="image-icon">
+              <img src="images\october.jpg" alt="Image">
+              
+            </div>
+            <div class="month-name">OCTOBER</div>
+          </div>
+          
+          <div class="month-card" data-month="november">
+            <div class="image-icon">
+              <img src="images\november.jpg" alt="Image">
+              
+            </div>
+            <div class="month-name">NOVEMBER</div>
+          </div>
+          
+          <div class="month-card" data-month="december">
+            <div class="image-icon">
+              <img src="images\december.jpg" alt="Image">
+              
+            </div>
+            <div class="month-name">DECEMBER</div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Image Viewer -->
+      <div id="image-view" class="hidden">
+        <div class="image-header">
+          <button id="back-to-calendar" class="back-button">← Back to Calendar</button>
+          <h2 id="image-month-title">Month</h2>
+          <a id="image-download-link" href="" download class="download-button">Download</a>
+        </div>
+        <div class="image-container">
+          <img id="month-image" src="/placeholder.svg" alt="Month Calendar" class="calendar-month-image">
+        </div>
+      </div>
+    </main>
+  </div>
+  
+  <footer>
+    <p>Designed by Pardha Saye</p>
+  </footer>
+</body>
+</html>
+
